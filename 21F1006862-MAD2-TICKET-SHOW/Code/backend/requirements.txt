@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Cors
+Flask-JWT-Extended
+Flask-Caching
+Werkzeug
+SQLAlchemy
+redis
+email
+eventlet

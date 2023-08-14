@@ -1,0 +1,17 @@
+backend:
+  debug: true
+  secret_key: your-secret-key
+  database_uri: sqlite:///app.db 
+  cors_origins:
+    - http://localhost:8080  
+
+celery:
+  broker_url: redis://localhost:6379/0  
+  result_backend: redis://localhost:6379/1  
+
+email:
+  smtp_server: localhost
+  smtp_port: 1025
+  smtp_username: adm@adm.com
+  smtp_password: 1234
+  sender_email: adm@adm.com
